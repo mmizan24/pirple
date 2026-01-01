@@ -1,6 +1,7 @@
 import sqlite3  # For database operations
 from typing import List, Tuple, Optional
 
+
 # Function for the Artist attributedipt
 def artist(name: Optional[str] = None) -> str:
     """Return the artist name. If name is not provided, prompt the user."""
